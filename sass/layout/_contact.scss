@@ -1,0 +1,51 @@
+.contact{
+          height: 200vh;
+          margin-top: -3rem;
+          background-image: linear-gradient(
+              to right bottom, 
+              rgba($color-black, 0.666), 
+              rgba($color-black, 0.666)),
+              url(../img/photo-s.jpg);
+          background-size: cover;
+          background-position: bottom;
+          position: relative; 
+          @include respond(tab-port) {
+            height: 120vh;
+        }
+          @include respond(phone) {
+            height: 100vh;
+        }
+}
+.tel{
+
+          &-1{
+                    transition: all .3s;
+                    &:hover{
+                              color: $color-primary;
+                              cursor: pointer;
+                    }
+          }
+
+          &-2{
+                    transition: all .3s;
+                    &:hover{
+                              color: $color-primary;
+                              cursor: pointer;
+                    }
+          }
+}
+
+.copy-right{
+          margin: 8rem;
+}
+.terms{
+          color: $color-primary;
+          font-weight: 400;
+          text-transform: capitalize;
+          transition: all .3s;
+
+          &:hover{
+                    color: $color-white;
+                    cursor: pointer;
+          }
+}

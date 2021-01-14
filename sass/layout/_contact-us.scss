@@ -1,0 +1,37 @@
+.contact-us{
+          height: 160vh;
+          background-color: $color-black;
+          margin-top: -10rem;
+          @include respond(tab-port) {
+                    height: 75vh; 
+          }
+          @include respond(phone) {
+                    height: 70vh;
+          }
+}
+
+.form{
+
+         &-group{
+                   margin-top: 3rem;
+         }
+
+         &-control{
+                   background-color: transparent !important;
+                   border: none !important;
+                   outline: none !important; 
+                   box-shadow: none !important;
+                   border-bottom: 1px solid $color-primary !important;
+                   width: 70% !important;
+                   text-align: center;
+                   margin: 0 auto;
+                   color: $color-white !important;
+                   padding: 2rem 0 !important;
+                   font-size: 1.6rem !important;
+                   font-weight: 400 !important;
+         }
+}
+input::placeholder,
+textarea::placeholder{
+          color: $color-white !important;
+}

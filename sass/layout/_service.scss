@@ -1,0 +1,42 @@
+.text-border-service{
+    border-bottom: 4px solid $color-primary;
+    width: 17%;
+    position: absolute;
+    left: 43%;
+    top: 9rem;
+
+    @include respond(tab-port) {
+            width: 10%;
+            position: absolute;
+            left: 43%;
+            top: 10rem;
+    }
+          @include respond(phone) {
+                    width: 10%;
+                    position: absolute;
+                    left: 43%;
+                    top: 12rem;
+          }
+}
+
+.text-border-service-bottom{
+    border-bottom: 4px solid $color-primary;
+    width: 17%;
+    position: absolute;
+    left: 43%;
+    bottom: 7rem;
+
+    @include respond(tab-port) {
+            width: 10%;
+            position: absolute;
+            left: 43%;
+            bottom: 5rem;
+    }
+          @include respond(phone) {
+                    width: 10%;
+                    position: absolute;
+                    left: 43%;
+                    bottom: 12rem;
+          }
+    
+} 

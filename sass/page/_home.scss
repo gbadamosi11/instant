@@ -1,0 +1,29 @@
+.header{
+          height: 130vh !important;
+          background-image: linear-gradient(
+              to right bottom, 
+              rgba($color-black, 0.666), 
+              rgba($color-black, 0.666)),
+              url(../img/photo-s.jpg);
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          @include respond(tab-port) {
+                    height: 70vh !important;
+        }
+          @include respond(phone) {
+                    height: 55vh !important;
+        }
+} 
+
+.welcome{
+          height: 130vh;
+          background-color: $color-black;
+
+          @include respond(tab-port) {
+            height: 55vh !important;
+        }
+          @include respond(phone) {
+            height: 55vh !important;
+        }
+}

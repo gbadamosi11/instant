@@ -1,0 +1,49 @@
+.navbar{
+          background-color: $color-black;
+          height: 15vh;
+          padding: .5rem 9rem !important;
+
+                  @include respond(tab-port) {
+                          height: 10vh;              
+                  }
+          &-brand{
+                    color:  $color-primary; 
+                    letter-spacing: 1rem;
+                    font-weight: lighter;
+                    font-size: 5rem !important;
+
+                    @include respond(phone) {
+                              
+                  }
+
+                    &:hover{
+                              color: $color-primary;
+                    }
+          }
+
+          &-toggler{
+
+                    @include respond(phone) {
+                              // margin: 3rem;
+                              font-size: 3rem !important;
+                    }
+
+          }
+
+}
+.nav{
+          &-item{
+                    padding: 1.5rem;
+          }
+          &-link{
+                    font-size: 1.5rem;
+                    letter-spacing: .2rem;
+                    color: $color-white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+          }
+          
+          &-link:hover{
+                    color: $color-white; 
+          }
+}

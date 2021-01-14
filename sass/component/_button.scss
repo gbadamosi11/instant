@@ -1,0 +1,17 @@
+.btn{
+          padding: 1.5rem 4rem !important;
+          
+          &-outline-primary{
+                    font-size: 1.8rem !important;
+                    font-weight: 500 !important;
+                    text-transform: uppercase;
+                    color: $color-white !important;
+                    border: .2rem solid $color-white !important;
+                    transition: all .4s !important;
+
+                    &:hover{
+                              background-color: transparent !important;
+                              border: .2rem solid $color-primary !important;
+                    }
+          }
+}
